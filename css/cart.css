@@ -1,0 +1,60 @@
+input[type="text"],
+input[type="number"] {
+    width: calc(50% - 80px);
+    padding: 12px;
+    margin: 1% 25%;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#btn {
+    width: 10%;
+    padding: 10px;
+    margin: 1% 40%;
+    text-align: center;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: #45a049;
+}
+
+#groceryList {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 1% 25%;
+    border-radius: 4px;
+    width: 43%;
+}
+
+.container1 {
+    height: max-content;
+    margin-bottom: 25px;
+}
+
+/* Media Query for 320px width */
+@media screen and (min-width:300px) and (max-width: 426px) {
+    body {
+        max-width: 320px;
+    }
+
+    input[type="text"],
+    input[type="number"] {
+        width: calc(60% - 20px);
+    }
+
+    #btn {
+        width: calc(60% - 20px);
+        margin-left: 80px;
+    }
+}

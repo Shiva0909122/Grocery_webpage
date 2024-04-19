@@ -1,0 +1,150 @@
+h4{
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+
+footer h5 {
+  display: block;
+  font-size: 0.83em;
+  margin-block-start: 1.67em;
+  margin-block-end: 1.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+/* CSS for login page */
+.login-page {
+  width: 100%;
+  max-width: 280px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.login-page h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.login-page label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.login-page input[type="text"],
+.login-page input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.login-page button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ffeba7;
+  border: none;
+  border-radius: 5px;
+  color: #102770;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.8s ease-in-out;
+}
+
+.login-page button:hover {
+  background-color: #102770;
+  color: #ffeba7;
+}
+
+.login-page a {
+  text-decoration: none;
+  color: #102770;
+  font-weight: bold;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.login-page a:hover {
+  text-decoration: underline;
+}
+
+/* CSS for signup page */
+.signup {
+  width: 100%;
+  max-width: 280px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  /* background-image: url('https://media.istockphoto.com/id/1456782892/photo/secure-access-to-personal-information-of-network-users-data-protection-and-secured-internet.jpg?s=1024x1024&w=is&k=20&c=g4HC8I1nOotvUuFJo_YnWi0ILKzhdsAjd97mSYHEQ80='); */
+  /* background-size: cover; */
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* background: linear-gradient(to bottom right, #afaaa4, #ffcd00); */
+}
+
+.signup .Sign-main {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.signup label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.signup input[type="text"],
+.signup input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.signup button {
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(to bottom right, #0022ff, #e0dfda);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  /* transition: background-position 8s ease-in-out; */
+}
+
+.signup button:hover {
+  background-position: left;
+  background: linear-gradient(to bottom right, #9cc520, #3055a6);
+  color: #ffeba7;
+  /* transform: translateX(20px); */
+}
+
+.signup .LOgin {
+  text-decoration: none;
+  color: #102770;
+  font-weight: bold;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.signup .LOgin:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
