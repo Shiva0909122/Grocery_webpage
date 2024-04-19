@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>KIRO</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet' href='https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css'>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="css/menu.css">
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <header>
+    <nav>
+      <h2><a href="#" id="logo">Kiro</a></h2>
+      <button class="nav-button fa fa-bars"></button>
+      <div>
+        <!--     <ul> -->
+        <ul>
+          <button class="exit-menu fa fa-times"></button>
+          <li><a href="index.html">welcome</a></li>
+          <li><a href="#menu" class="active">menu</a></li>
+          <li><a href="contact.html">contact</a></li>
+          <li><a href="Cart.html">Cart</a></li>
+          <li><a href="Login.html">Login</a></li>
+          <li><a href="Singup.html">Sign up</a></li>
+
+        </ul>
+        <!--     </ul> -->
+      </div>
+    </nav>
+    <div class="center">
+      <h1 class="alex-brush">Welcome</h1>
+
+      <h2 style="color: #fff  ">the Kiro</h2>
+      <span id="asterisk">*</span>
+      <p>ready to be opened</p>
+    </div>
+  </header>
+
+  <!-- menu -->
+  <div class="container-xxl py-5" id="menu">
+    <div class="container">
+      <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+        <h5 class="section-title ff-secondary text-center text-primary fw-normal">Food Menu</h5>
+        <h1 class="mb-5">Most Popular Items</h1>
+      </div>
+      <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
+        <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
+          <li class="nav-item">
+            <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active" data-bs-toggle="pill" href="#tab-1">
+              <i class="fa fa-coffee fa-2x text-primary"></i>
+              <div class="ps-3">
+                <small class="text-body">Popular</small>
+                <h6 class="mt-n1 mb-0">Breakfast</h6>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-2">
+              <i class="fa fa-hamburger fa-2x text-primary"></i>
+              <div class="ps-3">
+                <small class="text-body">Special</small>
+                <h6 class="mt-n1 mb-0">Launch</h6>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-3">
+              <i class="fa fa-utensils fa-2x text-primary"></i>
+              <div class="ps-3">
+                <small class="text-body">Lovely</small>
+                <h6 class="mt-n1 mb-0">Dinner</h6>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div id="tab-1" class="tab-pane fade show p-0 active">
+            <div class="row g-4">
+              <div class="col-lg-4">
+                <div class="d-flex align-items-center">
+                  <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                  <div class="w-100 d-flex flex-column text-start ps-4">
+                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                      <span>Eggs </span>
+                      <span class="text-primary">$115</span>
+                    </h5>
+                    <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> <button><a
+                        href="Cart.html">Add to Cart</a></button>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="d-flex align-items-center">
+                  <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                  <div class="w-100 d-flex flex-column text-start ps-4">
+                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                      <span>Bread</span>
+                      <span class="text-primary">$115</span>
+                    </h5>
+                    <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> <button><a
+                        href="Cart.html">Add to Cart</a></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="d-flex align-items-center">
+                  <img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;">
+                  <div class="w-100 d-flex flex-column text-start ps-4">
+                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                      <span>Pancakes</span>
+                      <span class="text-primary">$115</span>
+                    </h5>
+                    <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> <button><a
+                        href="Cart.html">Add to Cart</a></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="d-flex align-items-center">
+                  <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;">
+                  <div class="w-100 d-flex flex-column text-start ps-4">
+                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                      <span>Idli mix</span>
+                      <span class="text-primary">$115</span>
+                    </h5>
+                    <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> <button><a
+                        href="Cart.html">Add to Cart</a></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="d-flex align-items-center">
+                  <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;">
+                  <div class="w-100 d-flex flex-column text-start ps-4">
+                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                      <span>VADA mix</span>
+                      <span class="text-primary">$115</span>
+                    </h5>
+                    <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> <button><a
+                        href="Cart.html">Add to Cart</a></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="d-flex align-items-center">
+                  <img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;">
+                  <div class="w-100 d-flex flex-column text-start ps-4">
+                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                      <span>Cereal</span>
+                      <span class="text-primary">$115</span>
+                    </h5>
+                    <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> <button><a
+                        href="Cart.html">Add to Cart</a></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="d-flex align-items-center">
+                  <img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;">
+                  <div class="w-100 d-flex flex-column text-start ps-4">
+                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                      <span>Upma mix</span>
+                      <span class="text-primary">$115</span>
+                    </h5>
+                    <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> <button><a
+                        href="Cart.html">Add to Cart</a></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="d-flex align-items-center">
+                  <img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;">
+                  <div class="w-100 d-flex flex-column text-start ps-4">
+                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                      <span>French Toast</span>
+                      <span class="text-primary">$115</span>
+                    </h5>
+                    <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> <button><a
+                        href="Cart.html">Add to Cart</a></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="d-flex align-items-center">
+                  <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;">
+                  <div class="w-100 d-flex flex-column text-start ps-4">
+                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                      <span>Omelette</span>
+                      <span class="text-primary">$115</span>
+                    </h5>
+                    <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> <button><a
+                        href="Cart.html">Add to Cart</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="tab-2" class="tab-pane fade show p-0">
+            <div class="row g-4">
+              <div class="col-lg-4">
+                <div class="d-flex align-items-center">
+                  <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                  <div class="w-100 d-flex flex-column text-start ps-4">
+                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                      <span>Grilled Chicken Salad</span>
+                      <span class="text-primary">$115</span>
+                    </h5>
+                    <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> <button><a
+                        href="Cart.html">Add to Cart</a></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="d-flex align-items-center">
+                  <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                  <div class="w-100 d-flex flex-column text-start ps-4">
+                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                      <span>Vegetable Stir-Fry</span>
+                      <span class="text-primary">$115</span>
+                    </h5>
+                    <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> <button><a
+                        href="Cart.html">Add to Cart</a></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="d-flex align-items-center">
+                  <img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;">
+                  <div class="w-100 d-flex flex-column text-start ps-4">
+                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                      <span>Avocado</span>
+                      <span class="text-primary">$115</span>
+                    </h5>
+                    <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> <button><a
+                        href="Cart.html">Add to Cart</a></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="d-flex align-items-center">
+                  <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;">
+                  <div class="w-100 d-flex flex-column text-start ps-4">
+                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                      <span>Beef Burger</span>
+                      <span class="text-primary">$115</span>
+                    </h5>
+                    <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> <button><a
+                        href="Cart.html">Add to Cart</a></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="d-flex align-items-center">
+                  <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;">
+                  <div class="w-100 d-flex flex-column text-start ps-4">
+                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                      <span>Caser salad</span>
+                      <span class="text-primary">$115</span>
+                    </h5>
+                    <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> <button><a
+                        href="Cart.html">Add to Cart</a></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="d-flex align-items-center">
+                  <img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;">
+                  <div class="w-100 d-flex flex-column text-start ps-4">
+                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                      <span>Pasta </span>
+                      <span class="text-primary">$115</span>
+                    </h5>
+                    <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> <button><a
+                        href="Cart.html">Add to Cart</a></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="d-flex align-items-center">
+                  <img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;">
+                  <div class="w-100 d-flex flex-column text-start ps-4">
+                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                      <span>Whole Wheat pasta</span>
+                      <span class="text-primary">$115</span>
+                    </h5>
+                    <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> <button><a
+                        href="Cart.html">Add to Cart</a></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="d-flex align-items-center">
+                  <img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;">
+                  <div class="w-100 d-flex flex-column text-start ps-4">
+                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                      <span>Eggs</span>
+                      <span class="text-primary">$115</span>
+                    </h5>
+                    <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> <button><a
+                        href="Cart.html">Add to Cart</a></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="d-flex align-items-center">
+                  <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;">
+                  <div class="w-100 d-flex flex-column text-start ps-4">
+                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                      <span>Beef tacos</span>
+                      <span class="text-primary">$115</span>
+                    </h5>
+                    <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> <button><a
+                        href="Cart.html">Add to Cart</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="tab-3" class="tab-pane fade show p-0">
+            <div class="row g-4">
+              <div class="col-lg-4">
+                <div class="d-flex align-items-center">
+                  <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                  <div class="w-100 d-flex flex-column text-start ps-4">
+                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                      <span>Buttter </span>
+                      <span class="text-primary">$115</span>
+                    </h5>
+                    <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> <button><a
+                        href="Cart.html">Add to Cart</a></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="d-flex align-items-center">
+                  <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                  <div class="w-100 d-flex flex-column text-start ps-4">
+                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                      <span>Palak</span>
+                      <span class="text-primary">$115</span>
+                    </h5>
+                    <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> <button><a
+                        href="Cart.html">Add to Cart</a></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="d-flex align-items-center">
+                  <img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;">
+                  <div class="w-100 d-flex flex-column text-start ps-4">
+                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                      <span>olive oil</span>
+                      <span class="text-primary">$115</span>
+                    </h5>
+                    <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> <button><a
+                        href="Cart.html">Add to Cart</a></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="d-flex align-items-center">
+                  <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;">
+                  <div class="w-100 d-flex flex-column text-start ps-4">
+                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                      <span>Chole Bhature</span>
+                      <span class="text-primary">$115</span>
+                    </h5>
+                    <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> <button><a
+                        href="Cart.html">Add to Cart</a></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="d-flex align-items-center">
+                  <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;">
+                  <div class="w-100 d-flex flex-column text-start ps-4">
+                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                      <span>Paneer</span>
+                      <span class="text-primary">$115</span>
+                    </h5>
+                    <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> <button><a
+                        href="Cart.html">Add to Cart</a></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="d-flex align-items-center">
+                  <img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;">
+                  <div class="w-100 d-flex flex-column text-start ps-4">
+                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                      <span>Ground beef</span>
+                      <span class="text-primary">$115</span>
+                    </h5>
+                    <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> <button><a
+                        href="Cart.html">Add to Cart</a></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="d-flex align-items-center">
+                  <img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;">
+                  <div class="w-100 d-flex flex-column text-start ps-4">
+                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                      <span>Grilled Steak</span>
+                      <span class="text-primary">$115</span>
+                    </h5>
+                    <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> <button><a
+                        href="Cart.html">Add to Cart</a></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="d-flex align-items-center">
+                  <img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;">
+                  <div class="w-100 d-flex flex-column text-start ps-4">
+                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                      <span>Chicken breasts</span>
+                      <span class="text-primary">$115</span>
+                    </h5>
+                    <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> <button><a
+                        href="Cart.html">Add to Cart</a></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="d-flex align-items-center">
+                  <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;">
+                  <div class="w-100 d-flex flex-column text-start ps-4">
+                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                      <span>Mutton</span>
+                      <span class="text-primary">$125</span>
+                    </h5>
+                    <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> <button><a
+                        href="Cart.html">Add to Cart</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <footer>
+    <button class="to-top"><i class="fa fa-chevron-up"></i><a href="#">TOP</a></button>
+
+    <div class="restaurant-info">
+      <div class="locations">
+        <h4 style="color: #fff  ">LOCATIONS</h4>
+        <div class="location-1" style="color: #fff  ">
+          <h5 style="color: #fff  ">376 Van Brun St<br />Brooklyn, NY &#8212; 11231</h5>
+        </div><!--location-1-->
+        <div class="location-2">
+          <h5 style="color: #fff  ">25 Union Square West<br />New York, NY &#8212; 10003</h5>
+        </div>
+      </div>
+      <!--locations end-->
+      <div class="hours">
+        <h4 style="color: #fff  ">HOURS</h4>
+        <div class="weekdays">
+          <h5 style="color: #fff  ">Monday - Thursday<br />
+            5:30pm - 10:00pm
+          </h5>
+        </div>
+        <!--weekdays end-->
+
+        <div class="weekends">
+          <h5 style="color: #fff  ">Friday & Saturday<br />
+            5:30pm - 11:00pm
+          </h5>
+        </div><!--weekends end-->
+
+        <div class="private-events">
+          <h5 style="color: #fff  ">Available for private<br />
+            events on Sunday
+          </h5>
+        </div>
+
+      </div><!--hours end-->
+
+    </div><!--restaurant-info end-->
+
+    <div class="copyright">
+      <p style="color: #fff  "><small>Copyright 2024 &#169; Handcrafted with love by <span>Edureka</span>
+          Team</small></p>
+      <p style="color: #fff  "><small>Permissions and Copyright &#8226; Contact The Team</small></p>
+    </div>
+
+  </footer>
+
+
+  <script>
+    new WOW().init();
+
+    function showTab(tabIndex) {
+      // Hide all images
+      document.querySelectorAll('.menu-img').forEach(img => {
+        img.classList.remove('active');
+      });
+      // Show the selected tab's images
+      document.querySelectorAll(`#tab-${tabIndex} .menu-img`).forEach(img => {
+        img.classList.add('active');
+      });
+    }
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/rellax/1.6.2/rellax.js'></script>
+  <script src="./script.js"></script>
+
+</body>
+
+</html>

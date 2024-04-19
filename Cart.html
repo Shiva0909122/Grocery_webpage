@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>KIRO</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel='stylesheet' href='https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css'>
+  
+  <!-- css  -->
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="css/cart.css">
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <header>
+    <nav>
+      <h2><a href="#" id="logo">Kiro</a></h2>
+      <button class="nav-button fa fa-bars"></button>
+      <div>
+        <!--     <ul> -->
+        <ul>
+          <button class="exit-menu fa fa-times"></button>
+          <li><a href="index.html">welcome</a></li>
+          <li><a href="menu.html">menu</a></li>
+          <li><a href="contact.html">contact</a></li>
+          <li><a href="#Cart" class="active">Cart</a></li>
+          <li><a href="Login.html">Login</a></li>
+          <li><a href="Singup.html">Sign up</a></li>
+
+        </ul>
+        <!--     </ul> -->
+      </div>
+    </nav>
+    <div class="center">
+      <h1 class="alex-brush">Welcome</h1>
+
+      <h2>the Kiro</h2>
+      <span id="asterisk">*</span>
+      <p>ready to be opened</p>
+    </div>
+  </header>
+  <!-- cart -->
+<div class="container1" id="Cart">
+  <!-- Input fields for adding items -->
+  <input type="text" id="itemInput" placeholder="Enter item">
+  <input type="number" id="amountInput" placeholder="Enter Quantity">
+  <input type="number" id="priceInput" placeholder="Enter price">
+  <button onclick="addItem()" id="btn">Add Item</button>
+
+  <!-- Display area for the grocery list -->
+  <ul id="groceryList"></ul>
+  <script>
+    function addItem() {
+      // Get the values from the input fields
+      var newItem = document.getElementById("itemInput").value;
+      var amount = document.getElementById("amountInput").value;
+      var price = document.getElementById("priceInput").value;
+
+      // If the input fields are empty, do nothing
+      if (newItem === "" || amount === "" || price === "") {
+        return;
+      }
+
+      // Calculate the total price for the item
+      var totalPrice = amount * price;
+
+      // Create a new list item element
+      var aside = document.createElement("aside");
+
+      // Add the item, amount, and total price to the list item
+      aside.appendChild(document.createTextNode(newItem + " - Quantity: " + amount + ", Total Price: ₹" + totalPrice)); // ₹ is the symbol for Indian Rupees
+
+      // Append the new list item to the grocery list
+      document.getElementById("groceryList").appendChild(aside);
+
+      // Clear the input fields after adding the item
+      document.getElementById("itemInput").value = "";
+      document.getElementById("amountInput").value = "";
+      document.getElementById("priceInput").value = "";
+    }
+  </script>
+</div>
+  <!-- footr -->
+  <footer>
+    <button class="to-top"><i class="fa fa-chevron-up"></i><a href="#">TOP</a></button>
+
+    <div class="restaurant-info">
+
+      <div class="locations">
+        <h4>LOCATIONS</h4>
+        <div class="location-1">
+          <h5>376 Van Brun St<br />Brooklyn, NY &#8212; 11231</h5>
+        </div><!--location-1-->
+        <div class="location-2">
+          <h5>25 Union Square West<br />New York, NY &#8212; 10003</h5>
+        </div>
+      </div><!--locations end-->
+
+      <div class="hours">
+        <h4>HOURS</h4>
+        <div class="weekdays">
+          <h5>Monday - Thursday<br />
+            5:30pm - 10:00pm
+          </h5>
+        </div><!--weekdays end-->
+
+        <div class="weekends">
+          <h5>Friday & Saturday<br />
+            5:30pm - 11:00pm
+          </h5>
+        </div><!--weekends end-->
+
+        <div class="private-events">
+          <h5>Available for private<br />
+            events on Sunday
+          </h5>
+        </div>
+
+      </div><!--hours end-->
+
+    </div><!--restaurant-info end-->
+
+    <div class="copyright">
+      <p><small>Copyright 2024 &#169; Handcrafted with love by <span>Edureka</span> Team</small></p>
+      <p><small>Permissions and Copyright &#8226; Contact The Team</small></p>
+    </div>
+
+  </footer>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/rellax/1.6.2/rellax.js'></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
